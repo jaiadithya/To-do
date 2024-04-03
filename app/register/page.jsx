@@ -1,12 +1,11 @@
 import React from 'react'
-import Login from './components/LoginForm'
-
+import Register from '../components/RegisterForm'
 
 const page = () => {
   return (
     <div>
-      <Login/>
-  </div>
+        <Register/>
+    </div>
   )
 }
 

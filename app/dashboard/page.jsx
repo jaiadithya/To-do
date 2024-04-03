@@ -1,12 +1,11 @@
 import React from 'react'
-import Login from './components/LoginForm'
-
+import UserInfo from '../components/UserInfo'
 
 const page = () => {
   return (
     <div>
-      <Login/>
-  </div>
+        <UserInfo/>
+    </div>
   )
 }
 
